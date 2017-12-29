@@ -10,5 +10,5 @@ In order to schedule a task to run on a regular basis use one of the following o
 
  - The following command makes it work only until you restart: `sudo hostname your-new-hostname`.
  - After a restart your changes in `/etc/hostname` will be used, so you should replace the hostname in that file.
- - You should also edit `/etc/hosts` and change the line which reads `127.0.1.1     your-old-hostname` so that it now contains your new hostname.
+ - You should also edit `/etc/hosts` and change the line which reads `127.0.1.1 your-old-hostname` so that it now contains your new hostname.
 
